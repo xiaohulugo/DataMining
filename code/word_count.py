@@ -123,8 +123,8 @@ def process_one_fold(fold_path, result_words):
     file_word.close()
 
 def main():
-    fold_path = 'C:\\Media\\Courses\\DataMining\\lab1\\data'
-    result_words = 'C:\\Media\\Courses\\DataMining\\lab1\\words.txt'
+    fold_path = '..\\data'
+    result_words = '..\\result\\words.txt'
     process_one_fold(fold_path, result_words)
 
 if __name__ == '__main__':
