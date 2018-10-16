@@ -79,9 +79,9 @@ def process_one_fold(fold_path, result_place, result_topic):
 
 
 def main():
-    fold_path = 'C:\\Media\\Courses\\DataMining\\lab1\\data'
-    result_place = 'C:\\Media\\Courses\\DataMining\\lab1\\place.txt'
-    result_topic = 'C:\\Media\\Courses\\DataMining\\lab1\\topic.txt'
+    fold_path = '..\\data'
+    result_place = '..\\result\\place.txt'
+    result_topic = '..\\result\\topic.txt'
     process_one_fold(fold_path, result_place, result_topic)
 
 if __name__ == '__main__':
